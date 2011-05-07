@@ -1,5 +1,13 @@
+<objects>
 <fruits>
   <fruit name="apple" color="red" location="grocery bag"/>
   <fruit name="orange" color="orange" location="refrigerator"/>
   <fruit name="pear" color="greenish-brown" location="dog's mouth"/>
 </fruits>
+<furniture>
+<furniture name="chair" color="black" location="at the table" manufacturer ="Ikea"/>
+<furniture name="table" color="black" location="near the wall" manufacturer ="Ikea"/>
+<furniture name="wardrobe" color="brown" location="in the corridor" manufacturer ="Wood factory"/>
+</furniture>
+</objects>
+

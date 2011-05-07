@@ -31,9 +31,14 @@ xmlDocument = REXML::Document.new project1File
 # of a string, but I want to write some more Ruby code and embed the result
 # where I currently am, then go back to normal string behavior."
 
-xmlDocument.elements.each("fruits/fruit") { |f|
-  puts "A delicious #{f.attributes['color']} #{f.attributes['name']}"
+xmlDocument.elements.each("objects/fruits/fruit") { |f|
+ puts "A delicious #{f.attributes['color']} #{f.attributes['name']} is in the #{f.attributes['location']}"
 }
+
+xmlDocument.elements.each("objects/furniture/furniture") { |f|
+  puts "A #{f.attributes['color']} #{f.attributes['name']} manufactured by #{f.attributes['manufacturer']} is #{f.attributes['location']}"
+}
+
 
 # try running this script from the command line with "ruby project1.rb"
 # and see if you get output similar to this:
