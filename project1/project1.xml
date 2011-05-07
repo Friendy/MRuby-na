@@ -1,0 +1,5 @@
+<fruits>
+  <fruit name="apple" color="red" location="grocery bag"/>
+  <fruit name="orange" color="orange" location="refrigerator"/>
+  <fruit name="pear" color="greenish-brown" location="dog's mouth"/>
+</fruits>
